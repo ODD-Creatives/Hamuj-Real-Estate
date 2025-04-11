@@ -42,7 +42,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('admin.users')}}" role="button"
                             aria-expanded="false" aria-controls="sidebarAnalytics">
-                            <i class="ti ti-stack menu-icon"></i>
+                            <i class="ti ti-users menu-icon"></i>
                             <span>Users</span>
                         </a>
                     </li><!--end nav-item-->
@@ -51,6 +51,27 @@
                         <a class="nav-link" href="{{ route('admin.properties.index') }}" >
                             <i class="ti ti-brand-asana menu-icon"></i>
                             <span>Properties</span>
+                        </a>
+                    </li><!--end nav-item-->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('admin.buy.index') }}" >
+                            <i class="ti ti-arrow-up menu-icon"></i>
+                            <span>Buy</span>
+                        </a>
+                    </li><!--end nav-item-->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('admin.sell.index') }}" >
+                            <i class="ti ti-arrow-down menu-icon"></i>
+                            <span>Sell</span>
+                        </a>
+                    </li><!--end nav-item-->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('admin.transfer.index') }}" >
+                            <i class="ti ti-recycle menu-icon"></i>
+                            <span>Transfer</span>
                         </a>
                     </li><!--end nav-item-->
 
